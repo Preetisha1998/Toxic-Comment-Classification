@@ -28,7 +28,7 @@ test.csv- the test set, you must predict the toxicity probabilities for these co
 sample_submission.csv - a sample submission file in the correct format
 test_labels.csv - labels for the test data; value of -1 indicates it was not used for scoring; (Note: file added after competition close!)
 
-[The dataset is available here] (https://drive.google.com/drive/folders/1eGqTyDMTpEY-NYQDlYd13oH_QS0Vz7hJ?usp=sharing)
+[The dataset is available here](https://drive.google.com/drive/folders/1eGqTyDMTpEY-NYQDlYd13oH_QS0Vz7hJ?usp=sharing).
 
 # Contents
 | Filename | Description |
