@@ -9,8 +9,8 @@ Disclaimer: the dataset for this project contains text that may be considered pr
 # Expected Result :
 For each "id" in the test set, you must predict a probability for each of the six possible types of comment toxicity (toxic, severetoxic, obscene, threat, insult, identityhate). The columns must be in the same order as shown below. The file should contain a header and have the following format:
 
-| id | toxic |
-| -------- | ----------- |
+| id | toxic | severe_toxic | obscene | threat | insult | identity_hate|
+| -------- | ----------- | --------| --------- | --------- | ----------| -------|
 | EDA.ipynb | Exploratory Data Analysis of the dataset |
 | preprocessing.ipynb | Data Preprocessing steps and garbage removal |
 | model.ipynb | Comparative study of multiple ML algorithms on the training set |
