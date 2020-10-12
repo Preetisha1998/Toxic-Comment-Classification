@@ -11,14 +11,9 @@ For each "id" in the test set, you must predict a probability for each of the si
 
 | id | toxic | severe_toxic | obscene | threat | insult | identity_hate|
 | -------- | ----------- | --------| --------- | --------- | ----------| -------|
-| EDA.ipynb | Exploratory Data Analysis of the dataset |
-| preprocessing.ipynb | Data Preprocessing steps and garbage removal |
-| model.ipynb | Comparative study of multiple ML algorithms on the training set |
-| testing.ipynb | Model training and result generation and accuracy testing |
+|00001cee341fdb12 |0.5 | 0.5| 0.5| 0.5| 0.5| 0.5|
+|0000247867823ef7 |0.5| 0.5| 0.5| 0.5| 0.5| 0.5|
 
-id,toxic,severe_toxic,obscene,threat,insult,identity_hate
-00001cee341fdb12,0.5,0.5,0.5,0.5,0.5,0.5
-0000247867823ef7,0.5,0.5,0.5,0.5,0.5,0.5
 etc.
 
 # Dataset
