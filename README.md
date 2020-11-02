@@ -47,3 +47,4 @@ File descriptions
 # Deployment
 The Deployment was done using `Flask` and `Heroku`.
 [The link to the app is here](https://toxic-comm-1.herokuapp.com/)
+(Sometimes it may not work due to limited dynos in free tier on Heroku.)
