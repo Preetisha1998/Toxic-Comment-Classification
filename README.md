@@ -43,3 +43,7 @@ File descriptions
 | preprocessing.ipynb | Data Preprocessing steps and garbage removal |
 | model.ipynb | Comparative study of multiple ML algorithms on the training set |
 | testing.ipynb | Model training and result generation and accuracy testing |
+
+# Deployment
+The Deployment was done using `Flask` and `Heroku`.
+[The link to the app is here](https://toxic-comm-1.herokuapp.com/)
