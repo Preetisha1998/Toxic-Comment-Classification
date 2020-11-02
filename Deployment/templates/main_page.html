@@ -1,0 +1,30 @@
+</head>
+<body>
+<p><strong>Technocolabs Major Project.</strong> Made by Preetisha Srivastava, Machine Learning Developer Intern at Technocolabs!</p>
+<p><strong>Toxic Comment Classifier:</strong> This application uses machine learning to evaluate whether the provided comment is toxic. If it is, it tells you the toxic characteristics of the comment</p>
+
+<form method="POST">
+  <textarea name="text">Type comment here then press "submit" </textarea>
+  <input type="submit">
+</form>
+
+<div>
+Comment submitted: <br />
+
+<i>{% if text %}{{ text }}{% else %}Nothing{% endif %}</i> <br />
+
+<br />
+<br />
+
+Result: <br />
+Toxic: {{ pred_toxic }} <br />
+Severely toxic: {{ pred_severe_toxic }} <br />
+Identity hate: {{ pred_identity_hate }} <br />
+Insult: {{ pred_insult }} <br />
+Obscene: {{ pred_obscene }} <br />
+Threat: {{ pred_threat }} <br />
+
+</div>
+
+</body>
+</html>
